@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.btn{
+    height: 10vh;
+    width: 20vw;
+    color: dodgerblue;
+    background:none;
+    font: 2rem cursive;
+    border:0.2rem solid dodgerblue;
+}
+.btn:hover{
+    color: #fff;
+    border: .2rem solid violet;
+    box-shadow: 0 10px 10px -8px violet;
+    transform: translateY(-10px);
+    transition: ease-out .2s;
+}
